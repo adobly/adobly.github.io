@@ -4,6 +4,9 @@
   "description": "Adobly Community Official Webpage",
 	"main": "index.js",
 	"type": "module",
+  "config": {
+    "dir": "config/"
+  },
   "directories": {
 		"doc": "docs"
 	},
