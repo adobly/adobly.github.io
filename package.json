@@ -2,14 +2,14 @@
   "name": "adobly-web",
   "version": "0.0.1",
   "description": "Adobly Community Official Webpage",
-	"main": "index.js",
-	"type": "module",
+  "main": "index.js",
+  "type": "module",
   "config": {
     "dir": "config/"
   },
   "directories": {
-		"doc": "docs"
-	},
+    "doc": "docs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adobly/adobly.github.io.git"
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/WoozyStudio/adobly.github.io#readme",
   "scripts": {
-		"test:links": "node test/web/links.html"
-	}
+    "test:links": "node test/web/links.html"
+  },
+  "dependencies": {
+    "adobly-api": "^0.0.2"
+  }
 }
