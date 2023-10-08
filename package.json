@@ -1,0 +1,23 @@
+{
+  "name": "adobly-web",
+  "version": "0.0.1",
+  "description": "Adobly Community Official Webpage",
+	"main": "index.js",
+	"type": "module",
+  "directories": {
+		"doc": "docs"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adobly/adobly.github.io.git"
+  },
+  "author": "Woozy's YT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WoozyStudio/adobly.github.io/issues"
+  },
+  "homepage": "https://github.com/WoozyStudio/adobly.github.io#readme",
+  "scripts": {
+		"test:links": "node test/web/links.html"
+	}
+}
